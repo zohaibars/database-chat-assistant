@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "database-chat-assistant"
+version = "0.1.0"
+description = ""
+authors = ["Talhamuhammadali <talha_muhammadali@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+fastapi = "^0.110.3"
+uvicorn = "^0.29.0"
+torch = "^2.2.1"
+llama_index = "^0.10.36"
+llama-index-llms-groq = "*"
+llama-index-embeddings-huggingface = "*"
+llama-index-embeddings-instructor = "*"
+llama-index-llms-nvidia-triton = "*"
+llama-index-vector-stores-chroma = "^0.1.8"
+llama-index-callbacks-arize-phoenix="^0.1.5"
+sqlalchemy = "^2.0.30"
+pymysql = "^1.1.0"
+transformers = "*"
+accelerate = "*"
+langsmith = "^0.1.82"
+langchain = "^0.2.2"
+langchain-community = "^0.2.2"
+langchain-nvidia_ai_endpoints = "^0.1.1"
+langchain-nvidia-trt = "^0.0.1rc0"
+langchain-groq = "^0.1.4"
+langchainhub = "^0.1.17"
+langgraph = "0.0.62"
+datasets = "*"
+huggingface-hub = "^0.23.4"
+bitsandbytes = "^0.43.1"
+pydantic = "^2.7.1"
+python-decouple = "*"
+psycopg2-binary = "^2.9.9"
+chromadb = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

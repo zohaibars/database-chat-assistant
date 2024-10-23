@@ -1,0 +1,34 @@
+# Postgres TICKER Credentials
+POSTGRES_TICKER_DATABASE="fsma"
+POSTGRES_TICKER_USER="postgres"
+POSTGRES_TICKER_PASSWORD="ticker1234"
+POSTGRES_TICKER_HOST=""
+POSTGRES_TICKER_PORT="5432"
+# Postgres STT Credentials
+POSTGRES_STT_DATABASE="speech_to_text"
+POSTGRES_STT_USER="talha_dev"
+POSTGRES_STT_PASSWORD="ticker1234"
+POSTGRES_STT_HOST="192.168.18.161"
+POSTGRES_STT_PORT="5432"
+# llm server_urls
+SQL_URL=""
+CHAT_URL=""
+# phenoix server ip
+# PHOENIX_COLLECTOR_ENDPOINT="http://localhost:6006"
+# MYSQL Credentials
+MYSQL_USER="talha_dev"
+MYSQL_PASS="test@1234"
+MYSQL_HOST="192.168.18.144"
+MYSQL_PORT=3306
+MYSQL_DB="mydb"
+# API keys
+GROQ_API_KEY="<key-here>"
+
+# Translation api url
+TRANSLATION_URL="http://0.0.0.0:8001"
+# Langsmith
+LANGCHAIN_TRACING_V2=false
+LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+LANGCHAIN_PROJECT="pr-topic-summery-dev"
+LANGCHAIN_API_KEY="<key-here>"
+OPENAI_API_KEY =<keyhere>
